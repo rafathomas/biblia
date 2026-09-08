@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --background: oklch(0.985 0.006 75);
+  --foreground: oklch(0.22 0.012 55);
+  --surface: oklch(1 0 0);
+  --muted: oklch(0.95 0.009 70);
+  --muted-foreground: oklch(0.49 0.018 52);
+  --border: oklch(0.9 0.012 70);
+  --primary: oklch(0.28 0.016 55);
+  --primary-foreground: oklch(0.985 0.006 75);
+  --accent: oklch(0.91 0.032 83);
+  --destructive: oklch(0.55 0.2 28);
+  --ring: oklch(0.48 0.08 70);
+  --reader-font-size: 19px;
+  --reader-line-height: 1.85;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: oklch(0.18 0.009 55);
+  --foreground: oklch(0.92 0.008 75);
+  --surface: oklch(0.22 0.01 55);
+  --muted: oklch(0.26 0.01 55);
+  --muted-foreground: oklch(0.7 0.012 70);
+  --border: oklch(0.32 0.012 55);
+  --primary: oklch(0.9 0.01 75);
+  --primary-foreground: oklch(0.2 0.01 55);
+  --accent: oklch(0.31 0.035 75);
+  --ring: oklch(0.72 0.045 75);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-destructive: var(--destructive);
+  --color-ring: var(--ring);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', serif;
+}
+
+* { border-color: var(--border); }
+html { background: var(--background); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+::selection { background: var(--accent); }
+
+.reader-paper { --reader-bg: oklch(0.965 0.018 82); --reader-fg: oklch(0.25 0.018 55); }
+.reader-light { --reader-bg: oklch(1 0 0); --reader-fg: oklch(0.2 0.012 55); }
+.reader-dark { --reader-bg: oklch(0.16 0.012 55); --reader-fg: oklch(0.9 0.01 75); }
+.reader-surface { background: var(--reader-bg); color: var(--reader-fg); }
+.verse-highlight-yellow { background: oklch(0.9 0.09 95 / 0.55); }
+.verse-highlight-green { background: oklch(0.87 0.08 145 / 0.48); }
+.verse-highlight-blue { background: oklch(0.87 0.065 240 / 0.48); }
+.verse-highlight-pink { background: oklch(0.88 0.07 355 / 0.48); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}

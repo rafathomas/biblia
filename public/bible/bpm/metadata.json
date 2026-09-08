@@ -1,0 +1,612 @@
+{
+  "version": {
+    "id": "bpm",
+    "name": "Bíblia Portuguesa Mundial",
+    "abbreviation": "BPM",
+    "language": "pt-BR",
+    "license": "Public Domain",
+    "source": "eBible.org"
+  },
+  "canon": "protestant-66",
+  "books": [
+    {
+      "id": "GEN",
+      "order": 1,
+      "name": "Gênesis",
+      "abbreviation": "Gn",
+      "slug": "genesis",
+      "testament": "old",
+      "chapters": 50
+    },
+    {
+      "id": "EXO",
+      "order": 2,
+      "name": "Êxodo",
+      "abbreviation": "Êx",
+      "slug": "exodo",
+      "testament": "old",
+      "chapters": 40
+    },
+    {
+      "id": "LEV",
+      "order": 3,
+      "name": "Levítico",
+      "abbreviation": "Lv",
+      "slug": "levitico",
+      "testament": "old",
+      "chapters": 27
+    },
+    {
+      "id": "NUM",
+      "order": 4,
+      "name": "Números",
+      "abbreviation": "Nm",
+      "slug": "numeros",
+      "testament": "old",
+      "chapters": 36
+    },
+    {
+      "id": "DEU",
+      "order": 5,
+      "name": "Deuteronômio",
+      "abbreviation": "Dt",
+      "slug": "deuteronomio",
+      "testament": "old",
+      "chapters": 34
+    },
+    {
+      "id": "JOS",
+      "order": 6,
+      "name": "Josué",
+      "abbreviation": "Js",
+      "slug": "josue",
+      "testament": "old",
+      "chapters": 24
+    },
+    {
+      "id": "JDG",
+      "order": 7,
+      "name": "Juízes",
+      "abbreviation": "Jz",
+      "slug": "juizes",
+      "testament": "old",
+      "chapters": 21
+    },
+    {
+      "id": "RUT",
+      "order": 8,
+      "name": "Rute",
+      "abbreviation": "Rt",
+      "slug": "rute",
+      "testament": "old",
+      "chapters": 4
+    },
+    {
+      "id": "1SA",
+      "order": 9,
+      "name": "1 Samuel",
+      "abbreviation": "1Sm",
+      "slug": "1-samuel",
+      "testament": "old",
+      "chapters": 31
+    },
+    {
+      "id": "2SA",
+      "order": 10,
+      "name": "2 Samuel",
+      "abbreviation": "2Sm",
+      "slug": "2-samuel",
+      "testament": "old",
+      "chapters": 24
+    },
+    {
+      "id": "1KI",
+      "order": 11,
+      "name": "1 Reis",
+      "abbreviation": "1Rs",
+      "slug": "1-reis",
+      "testament": "old",
+      "chapters": 22
+    },
+    {
+      "id": "2KI",
+      "order": 12,
+      "name": "2 Reis",
+      "abbreviation": "2Rs",
+      "slug": "2-reis",
+      "testament": "old",
+      "chapters": 25
+    },
+    {
+      "id": "1CH",
+      "order": 13,
+      "name": "1 Crônicas",
+      "abbreviation": "1Cr",
+      "slug": "1-cronicas",
+      "testament": "old",
+      "chapters": 29
+    },
+    {
+      "id": "2CH",
+      "order": 14,
+      "name": "2 Crônicas",
+      "abbreviation": "2Cr",
+      "slug": "2-cronicas",
+      "testament": "old",
+      "chapters": 36
+    },
+    {
+      "id": "EZR",
+      "order": 15,
+      "name": "Esdras",
+      "abbreviation": "Ed",
+      "slug": "esdras",
+      "testament": "old",
+      "chapters": 10
+    },
+    {
+      "id": "NEH",
+      "order": 16,
+      "name": "Neemias",
+      "abbreviation": "Ne",
+      "slug": "neemias",
+      "testament": "old",
+      "chapters": 13
+    },
+    {
+      "id": "EST",
+      "order": 17,
+      "name": "Ester",
+      "abbreviation": "Et",
+      "slug": "ester",
+      "testament": "old",
+      "chapters": 10
+    },
+    {
+      "id": "JOB",
+      "order": 18,
+      "name": "Jó",
+      "abbreviation": "Jó",
+      "slug": "jo",
+      "testament": "old",
+      "chapters": 42
+    },
+    {
+      "id": "PSA",
+      "order": 19,
+      "name": "Salmos",
+      "abbreviation": "Sl",
+      "slug": "salmos",
+      "testament": "old",
+      "chapters": 150
+    },
+    {
+      "id": "PRO",
+      "order": 20,
+      "name": "Provérbios",
+      "abbreviation": "Pv",
+      "slug": "proverbios",
+      "testament": "old",
+      "chapters": 31
+    },
+    {
+      "id": "ECC",
+      "order": 21,
+      "name": "Eclesiastes",
+      "abbreviation": "Ec",
+      "slug": "eclesiastes",
+      "testament": "old",
+      "chapters": 12
+    },
+    {
+      "id": "SNG",
+      "order": 22,
+      "name": "Cântico dos Cânticos",
+      "abbreviation": "Ct",
+      "slug": "cantico-dos-canticos",
+      "testament": "old",
+      "chapters": 8
+    },
+    {
+      "id": "ISA",
+      "order": 23,
+      "name": "Isaías",
+      "abbreviation": "Is",
+      "slug": "isaias",
+      "testament": "old",
+      "chapters": 66
+    },
+    {
+      "id": "JER",
+      "order": 24,
+      "name": "Jeremias",
+      "abbreviation": "Jr",
+      "slug": "jeremias",
+      "testament": "old",
+      "chapters": 52
+    },
+    {
+      "id": "LAM",
+      "order": 25,
+      "name": "Lamentações",
+      "abbreviation": "Lm",
+      "slug": "lamentacoes",
+      "testament": "old",
+      "chapters": 5
+    },
+    {
+      "id": "EZK",
+      "order": 26,
+      "name": "Ezequiel",
+      "abbreviation": "Ez",
+      "slug": "ezequiel",
+      "testament": "old",
+      "chapters": 48
+    },
+    {
+      "id": "DAN",
+      "order": 27,
+      "name": "Daniel",
+      "abbreviation": "Dn",
+      "slug": "daniel",
+      "testament": "old",
+      "chapters": 12
+    },
+    {
+      "id": "HOS",
+      "order": 28,
+      "name": "Oseias",
+      "abbreviation": "Os",
+      "slug": "oseias",
+      "testament": "old",
+      "chapters": 14
+    },
+    {
+      "id": "JOL",
+      "order": 29,
+      "name": "Joel",
+      "abbreviation": "Jl",
+      "slug": "joel",
+      "testament": "old",
+      "chapters": 3
+    },
+    {
+      "id": "AMO",
+      "order": 30,
+      "name": "Amós",
+      "abbreviation": "Am",
+      "slug": "amos",
+      "testament": "old",
+      "chapters": 9
+    },
+    {
+      "id": "OBA",
+      "order": 31,
+      "name": "Obadias",
+      "abbreviation": "Ob",
+      "slug": "obadias",
+      "testament": "old",
+      "chapters": 1
+    },
+    {
+      "id": "JON",
+      "order": 32,
+      "name": "Jonas",
+      "abbreviation": "Jn",
+      "slug": "jonas",
+      "testament": "old",
+      "chapters": 4
+    },
+    {
+      "id": "MIC",
+      "order": 33,
+      "name": "Miqueias",
+      "abbreviation": "Mq",
+      "slug": "miqueias",
+      "testament": "old",
+      "chapters": 7
+    },
+    {
+      "id": "NAM",
+      "order": 34,
+      "name": "Naum",
+      "abbreviation": "Na",
+      "slug": "naum",
+      "testament": "old",
+      "chapters": 3
+    },
+    {
+      "id": "HAB",
+      "order": 35,
+      "name": "Habacuque",
+      "abbreviation": "Hc",
+      "slug": "habacuque",
+      "testament": "old",
+      "chapters": 3
+    },
+    {
+      "id": "ZEP",
+      "order": 36,
+      "name": "Sofonias",
+      "abbreviation": "Sf",
+      "slug": "sofonias",
+      "testament": "old",
+      "chapters": 3
+    },
+    {
+      "id": "HAG",
+      "order": 37,
+      "name": "Ageu",
+      "abbreviation": "Ag",
+      "slug": "ageu",
+      "testament": "old",
+      "chapters": 2
+    },
+    {
+      "id": "ZEC",
+      "order": 38,
+      "name": "Zacarias",
+      "abbreviation": "Zc",
+      "slug": "zacarias",
+      "testament": "old",
+      "chapters": 14
+    },
+    {
+      "id": "MAL",
+      "order": 39,
+      "name": "Malaquias",
+      "abbreviation": "Ml",
+      "slug": "malaquias",
+      "testament": "old",
+      "chapters": 4
+    },
+    {
+      "id": "MAT",
+      "order": 40,
+      "name": "Mateus",
+      "abbreviation": "Mt",
+      "slug": "mateus",
+      "testament": "new",
+      "chapters": 28
+    },
+    {
+      "id": "MRK",
+      "order": 41,
+      "name": "Marcos",
+      "abbreviation": "Mc",
+      "slug": "marcos",
+      "testament": "new",
+      "chapters": 16
+    },
+    {
+      "id": "LUK",
+      "order": 42,
+      "name": "Lucas",
+      "abbreviation": "Lc",
+      "slug": "lucas",
+      "testament": "new",
+      "chapters": 24
+    },
+    {
+      "id": "JHN",
+      "order": 43,
+      "name": "João",
+      "abbreviation": "Jo",
+      "slug": "joao",
+      "testament": "new",
+      "chapters": 21
+    },
+    {
+      "id": "ACT",
+      "order": 44,
+      "name": "Atos",
+      "abbreviation": "At",
+      "slug": "atos",
+      "testament": "new",
+      "chapters": 28
+    },
+    {
+      "id": "ROM",
+      "order": 45,
+      "name": "Romanos",
+      "abbreviation": "Rm",
+      "slug": "romanos",
+      "testament": "new",
+      "chapters": 16
+    },
+    {
+      "id": "1CO",
+      "order": 46,
+      "name": "1 Coríntios",
+      "abbreviation": "1Co",
+      "slug": "1-corintios",
+      "testament": "new",
+      "chapters": 16
+    },
+    {
+      "id": "2CO",
+      "order": 47,
+      "name": "2 Coríntios",
+      "abbreviation": "2Co",
+      "slug": "2-corintios",
+      "testament": "new",
+      "chapters": 13
+    },
+    {
+      "id": "GAL",
+      "order": 48,
+      "name": "Gálatas",
+      "abbreviation": "Gl",
+      "slug": "galatas",
+      "testament": "new",
+      "chapters": 6
+    },
+    {
+      "id": "EPH",
+      "order": 49,
+      "name": "Efésios",
+      "abbreviation": "Ef",
+      "slug": "efesios",
+      "testament": "new",
+      "chapters": 6
+    },
+    {
+      "id": "PHP",
+      "order": 50,
+      "name": "Filipenses",
+      "abbreviation": "Fp",
+      "slug": "filipenses",
+      "testament": "new",
+      "chapters": 4
+    },
+    {
+      "id": "COL",
+      "order": 51,
+      "name": "Colossenses",
+      "abbreviation": "Cl",
+      "slug": "colossenses",
+      "testament": "new",
+      "chapters": 4
+    },
+    {
+      "id": "1TH",
+      "order": 52,
+      "name": "1 Tessalonicenses",
+      "abbreviation": "1Ts",
+      "slug": "1-tessalonicenses",
+      "testament": "new",
+      "chapters": 5
+    },
+    {
+      "id": "2TH",
+      "order": 53,
+      "name": "2 Tessalonicenses",
+      "abbreviation": "2Ts",
+      "slug": "2-tessalonicenses",
+      "testament": "new",
+      "chapters": 3
+    },
+    {
+      "id": "1TI",
+      "order": 54,
+      "name": "1 Timóteo",
+      "abbreviation": "1Tm",
+      "slug": "1-timoteo",
+      "testament": "new",
+      "chapters": 6
+    },
+    {
+      "id": "2TI",
+      "order": 55,
+      "name": "2 Timóteo",
+      "abbreviation": "2Tm",
+      "slug": "2-timoteo",
+      "testament": "new",
+      "chapters": 4
+    },
+    {
+      "id": "TIT",
+      "order": 56,
+      "name": "Tito",
+      "abbreviation": "Tt",
+      "slug": "tito",
+      "testament": "new",
+      "chapters": 3
+    },
+    {
+      "id": "PHM",
+      "order": 57,
+      "name": "Filemom",
+      "abbreviation": "Fm",
+      "slug": "filemom",
+      "testament": "new",
+      "chapters": 1
+    },
+    {
+      "id": "HEB",
+      "order": 58,
+      "name": "Hebreus",
+      "abbreviation": "Hb",
+      "slug": "hebreus",
+      "testament": "new",
+      "chapters": 13
+    },
+    {
+      "id": "JAS",
+      "order": 59,
+      "name": "Tiago",
+      "abbreviation": "Tg",
+      "slug": "tiago",
+      "testament": "new",
+      "chapters": 5
+    },
+    {
+      "id": "1PE",
+      "order": 60,
+      "name": "1 Pedro",
+      "abbreviation": "1Pe",
+      "slug": "1-pedro",
+      "testament": "new",
+      "chapters": 5
+    },
+    {
+      "id": "2PE",
+      "order": 61,
+      "name": "2 Pedro",
+      "abbreviation": "2Pe",
+      "slug": "2-pedro",
+      "testament": "new",
+      "chapters": 3
+    },
+    {
+      "id": "1JN",
+      "order": 62,
+      "name": "1 João",
+      "abbreviation": "1Jo",
+      "slug": "1-joao",
+      "testament": "new",
+      "chapters": 5
+    },
+    {
+      "id": "2JN",
+      "order": 63,
+      "name": "2 João",
+      "abbreviation": "2Jo",
+      "slug": "2-joao",
+      "testament": "new",
+      "chapters": 1
+    },
+    {
+      "id": "3JN",
+      "order": 64,
+      "name": "3 João",
+      "abbreviation": "3Jo",
+      "slug": "3-joao",
+      "testament": "new",
+      "chapters": 1
+    },
+    {
+      "id": "JUD",
+      "order": 65,
+      "name": "Judas",
+      "abbreviation": "Jd",
+      "slug": "judas",
+      "testament": "new",
+      "chapters": 1
+    },
+    {
+      "id": "REV",
+      "order": 66,
+      "name": "Apocalipse",
+      "abbreviation": "Ap",
+      "slug": "apocalipse",
+      "testament": "new",
+      "chapters": 22
+    }
+  ],
+  "stats": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31098
+  }
+}
